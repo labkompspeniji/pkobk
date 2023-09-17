@@ -1,9 +1,9 @@
 */config/development
 */logs/log-*.php
-!*/logs/index.html
+!*/logs/index.php
 */cache/*
 !system/cache/*
-!*/cache/index.html
+!*/cache/index.php
 !*/cache/.htaccess
 
 user_guide_src/build/*
@@ -13,6 +13,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 #codeigniter 3
 application/logs/*
-!application/logs/index.html
+!application/logs/index.php
 !application/logs/.htaccess
 /vendor/
